@@ -10,7 +10,7 @@ interface ExperienceCardProps {
 
 const ExperienceCard: FC<ExperienceCardProps> = ({ experienceImg, title, description, buttonContent }) => {
     return (
-        <div className='flex gap-5 bg-gradient-to-r from-[#130428] to-[#30115B] rounded-lg p-8 border-t-4 border-[#4F228D]'>
+        <div className='z-10 flex gap-5 bg-gradient-to-r from-[#130428] to-[#30115B] rounded-xl p-8 border-t-4 border-[#4F228D]'>
             <div className='w-[115px]'>
                 <img src={experienceImg} alt="Experience" className="w-full" />
             </div>
