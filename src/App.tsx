@@ -2,6 +2,7 @@ import { FC } from 'react';
 import Footer from './components/layout/footer/Footer';
 import Navbar from './components/layout/navbar/Navbar';
 import Hero from './components/home/hero/Hero';
+import About from './components/home/about/About';
 
 const App: FC = () => {
   return (
@@ -10,6 +11,7 @@ const App: FC = () => {
         <Navbar />
         <main className='wrapper min-h-svh'>
           <Hero />
+          <About />
         </main>
         <Footer />
       </div>

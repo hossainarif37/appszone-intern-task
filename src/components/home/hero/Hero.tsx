@@ -4,7 +4,7 @@ import bottomArrow from "../../../assets/hero/bottom_arrow.png";
 
 const Hero: FC = () => {
     return (
-        <section className="relative flex h-screen text-white bg-[#10051e] ">
+        <section className="relative flex text-white bg-[#10051e] ">
             {/* Left Section - Image & Effects */}
             {/* Glow Effect */}
             <div
