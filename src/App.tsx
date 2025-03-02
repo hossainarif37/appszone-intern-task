@@ -1,18 +1,19 @@
 import { FC } from 'react';
 import Footer from './components/layout/footer/Footer';
 import Navbar from './components/layout/navbar/Navbar';
+import Hero from './components/home/hero/Hero';
 
 const App: FC = () => {
   return (
-    <div className='min-h-screen'>
+    <div className='min-h-screen bg-[#11071F] text-white'>
       <div className='w-full'>
         <Navbar />
-        <main className='max-w-5xl mx-auto'>
-          Main Content
+        <main className='wrapper min-h-svh'>
+          <Hero />
         </main>
         <Footer />
       </div>
-    </div>
+    </div >
   );
 };
 

@@ -6,7 +6,7 @@ import MobileNav from './MobileNav';
 const Navbar: FC = () => {
     return (
         <nav className='bg-[#1A0B2E] text-white'>
-            <div className='wrapper flex justify-between items-center py-6 px-4'>
+            <div className='wrapper flex justify-between items-center py-6'>
                 {/* Logo */}
                 <div>
                     <img src={logo} alt="Nav Logo" className='w-8 md:w-12' />
