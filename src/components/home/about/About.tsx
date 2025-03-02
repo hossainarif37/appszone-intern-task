@@ -3,7 +3,7 @@ import appsZone from "../../../assets/icons/appsZone.png"
 
 const About: FC = () => {
     return (
-        <div className='py-5'>
+        <section className='py-5'>
             <div className='space-y-2'>
                 <h1 className='text-6xl'>I'm a Software Engineer.</h1>
                 <h4 className='text-xl flex'>
@@ -31,7 +31,7 @@ const About: FC = () => {
                 I make meaningful and delightful digital products that create an equilibrium <br />
                 between user needs and business goals.
             </p>
-        </div>
+        </section>
     );
 };
 
