@@ -13,7 +13,7 @@ const ProjectCard: FC<ProjectCardProps> = ({ title, description, projectImg, isO
     return (
         <div className={`relative flex ${isOdd ? "flex-row-reverse" : ""} gap-5 p-5 rounded-2xl`}>
             <div>
-                <GlowEffectBg className={`${isOdd ? "w-[600px] h-[550px] -translate-x-[670px]" : "w-[700px] h-[660px] -translate-x-36"} transform`} />
+                <GlowEffectBg className={`opacity-70 ${isOdd ? "w-[600px] h-[550px] -translate-x-[670px]" : "w-[700px] h-[660px] -translate-x-36"} transform`} />
             </div>
             <div className={`flex-1 ${isOdd ? "text-right" : "text-left"} pt-5`}>
                 <h6 className='text-[#9857D3] font-semibold'>Featured Project</h6>
@@ -34,7 +34,6 @@ const ProjectCard: FC<ProjectCardProps> = ({ title, description, projectImg, isO
             <div className={`relative flex-1 bg-[#2B0B3A] pt-8  ${isOdd ? "pr-10" : "pl-10"}  rounded-2xl`}>
                 <img src={projectImg} alt="" />
             </div>
-
         </div>
     );
 };
