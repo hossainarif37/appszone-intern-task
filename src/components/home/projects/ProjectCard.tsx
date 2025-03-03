@@ -20,7 +20,7 @@ const ProjectCard: FC<ProjectCardProps> = ({ title, description, projectImg, isO
                 <h1 className='text-3xl font-semibold text-[#CCD6F6]'>{title}</h1>
 
                 <div className={`z-10 absolute ${isOdd ? "transform -translate-x-[90px]" : ""}`}>
-                    <div className={`text-left bg-[#201335]/30 w-[550px] -mr-10 mt-8 backdrop-blur-2xl py-5 px-8 pr-12 text-[#B6BDDE] font-medium rounded-2xl`}>
+                    <div className={`text-left bg-[#201434]/50 w-[550px] -mr-10 mt-8 backdrop-blur-2xl py-6 px-8 pr-12 text-[#B6BDDE] font-medium rounded-2xl`}>
                         {description}
                     </div>
 

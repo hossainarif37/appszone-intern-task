@@ -11,7 +11,7 @@ const App: FC = () => {
     <div className='min-h-screen pb-20 bg-[#11071F] text-white'>
       <div className='w-full'>
         <Navbar />
-        <main className='wrapper min-h-svh'>
+        <main className='wrapper min-h-svh mb-44'>
           <Hero />
           <About />
           <Experience />
