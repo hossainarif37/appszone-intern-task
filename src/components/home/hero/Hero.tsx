@@ -40,8 +40,9 @@ const Hero: FC = () => {
                 <div className="mt-[68px]">
                     <h3 className="text-xl">A Designer who</h3>
                     <div>
-                        <h1 className="text-6xl mt-2">
-                            Judges a book <br /> by its  <span className="text-purple-400 mr-0.5">cover</span><span>...</span>
+                        <h1 className="text-5xl mt-2 relative">
+                            Judges a book <br /> by its <div className="absolute top-[50px] right-[42px] w-[148px] h-[50px] rounded-[50%] border border-white transform -rotate-6" /> <span className="text-[#7127BA] mr-0.5">cover</span><span>...</span>
+
                         </h1>
                         <p className="text-xs text-gray-300 mt-3">
                             Because if the cover does not impress you, what else can?
