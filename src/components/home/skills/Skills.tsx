@@ -13,6 +13,7 @@ import illustrator from "../../../assets/icons/illustrator.png";
 import express from "../../../assets/icons/express.png";
 import mongodb from "../../../assets/icons/mongodb.png";
 import SkillIcon from "./SkillIcon";
+import light from "../../../assets/logo/light.png"
 
 const Skills: FC = () => {
     const icons = [
@@ -91,6 +92,19 @@ const Skills: FC = () => {
             <svg className="absolute top-[344px] left-1/2 transform translate-x-[35px] -translate-y-1/2" width="100" height="200">
                 <path d="M98,0 Q0,67 0,273" stroke="rgba(163, 98, 255, 0.3)" stroke-width="0.5" fill="transparent"></path>
             </svg>
+
+            <div className="relative bg-gradient-to-b from-[#280E62] to-[#65339A] size-[180px] flex justify-center items-center rounded-full">
+                <img src={light} alt="" />
+                <div
+                    className="w-[295px] h-[164px] absolute top-8 bg-transparent border-b border-[#65339A] rounded-[50%]"
+                />
+                <div
+                    className="w-[265px] h-[185px] absolute top-8 bg-transparent border-b border-[#65339A] rounded-[70%]"
+                />
+            </div>
+
+
+
         </section>
     );
 };
