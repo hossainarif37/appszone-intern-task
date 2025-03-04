@@ -93,7 +93,7 @@ const Skills: FC = () => {
                 <path d="M98,0 Q0,67 0,273" stroke="rgba(163, 98, 255, 0.3)" stroke-width="0.5" fill="transparent"></path>
             </svg>
 
-            <div className="relative bg-gradient-to-b from-[#280E62] to-[#65339A] size-[180px] flex justify-center items-center rounded-full">
+            <div className="relative z-20 bg-gradient-to-b from-[#280E62] to-[#65339A] size-[180px] flex justify-center items-center rounded-full">
                 <img src={light} alt="" />
                 <div
                     className="w-[295px] h-[164px] absolute top-8 bg-transparent border-b border-[#65339A] rounded-[50%]"
@@ -103,8 +103,35 @@ const Skills: FC = () => {
                 />
             </div>
 
-
-
+            <div
+                className="w-[881px] h-[269px] absolute bottom-36 bg-transparent"
+                style={{
+                    borderRadius: "50%",
+                    border: "2px solid transparent",
+                    background:
+                        "linear-gradient(#11071F, #11071F) padding-box, linear-gradient(to bottom, rgba(118, 60, 172, 0) 0%, #763CAC 99.9%) border-box",
+                }}
+            >
+                <div
+                    className="w-[764px] h-[269px] mx-auto bg-transparent"
+                    style={{
+                        borderRadius: "50%",
+                        border: "2px solid transparent",
+                        background:
+                            "linear-gradient(#11071F, #11071F) padding-box, linear-gradient(to bottom, rgba(118, 60, 172, 0) 0%, #763CAC 99.9%) border-box",
+                    }}
+                >
+                    <div
+                        className="w-[695px] h-[269px] mx-auto bg-transparent"
+                        style={{
+                            borderRadius: "50%",
+                            border: "2px solid transparent",
+                            background:
+                                "linear-gradient(#11071F, #11071F) padding-box, linear-gradient(to bottom, rgba(118, 60, 172, 0) 0%, #763CAC 99.9%) border-box",
+                        }}
+                    ></div>
+                </div>
+            </div>
         </section>
     );
 };
