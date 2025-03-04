@@ -67,29 +67,29 @@ const Skills: FC = () => {
             </div>
 
             <svg className="absolute top-[344px] left-1/2 transform -translate-x-[48px] -translate-y-1/2" width="100" height="200">
-                <path d="M19,0 Q34,67 51,268" stroke="rgba(163, 98, 255, 0.5)" stroke-width="0.5" fill="transparent"></path>
+                <path d="M19,0 Q34,67 51,268" stroke="rgba(163, 98, 255, 0.3)" stroke-width="0.5" fill="transparent"></path>
             </svg>
 
             <svg className="absolute top-[344px] left-1/2 transform -translate-x-[40px] -translate-y-1/2" width="100" height="200">
-                <path d="M70,0 Q34,67 40,268" stroke="rgba(163, 98, 255, 0.5)" stroke-width="0.5" fill="transparent"></path>
+                <path d="M70,0 Q34,67 40,268" stroke="rgba(163, 98, 255, 0.3)" stroke-width="0.5" fill="transparent"></path>
             </svg>
 
             {/* Adobe XD*/}
             <svg className="-ml-47" width="119" height="200" viewBox="0 0 119 302" fill="none">
-                <path d="M0.499756 1C44.1664 48.5 124.2 164.5 140 301.5" stroke="rgba(163, 98, 255, 0.5)"></path>
+                <path d="M0.499756 1C44.1664 48.5 124.2 164.5 140 301.5" stroke="rgba(163, 98, 255, 0.3)"></path>
             </svg>
 
             {/* Next.js */}
             <svg className="absolute top-[344px] left-1/2 transform -translate-x-[82px] -translate-y-1/2" width="100" height="200">
-                <path d="M0,0 Q62,91 88,268" stroke="rgba(163, 98, 255, 0.5)" stroke-width="0.5" fill="transparent"></path>
+                <path d="M0,0 Q62,91 88,268" stroke="rgba(163, 98, 255, 0.3)" stroke-width="0.5" fill="transparent"></path>
             </svg>
 
             <svg className="absolute top-[344px] left-1/2 transform -translate-x-[19px] -translate-y-1/2" width="100" height="200">
-                <path d="M100,0 Q37,63 17,223" stroke="rgba(163, 98, 255, 0.5)" stroke-width="0.5" fill="transparent"></path>
+                <path d="M100,0 Q37,63 17,223" stroke="rgba(163, 98, 255, 0.3)" stroke-width="0.5" fill="transparent"></path>
             </svg>
 
             <svg className="absolute top-[344px] left-1/2 transform translate-x-[35px] -translate-y-1/2" width="100" height="200">
-                <path d="M98,0 Q0,67 0,273" stroke="rgba(163, 98, 255, 0.5)" stroke-width="0.5" fill="transparent"></path>
+                <path d="M98,0 Q0,67 0,273" stroke="rgba(163, 98, 255, 0.3)" stroke-width="0.5" fill="transparent"></path>
             </svg>
         </section>
     );
