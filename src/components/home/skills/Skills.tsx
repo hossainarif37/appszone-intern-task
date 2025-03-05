@@ -48,8 +48,8 @@ const Skills: FC = () => {
                 <div className="flex gap-2">
                     {icons.slice(0, 7).map((item, i) => (
                         <SkillIcon
-                            key={i}
                             i={i}
+                            key={i}
                             item={item}
                             className={`${item.title === "Figma" && "p-4" || item.title === "Redux" && "p-3" || item.title === "JavaScript" && "p-3" || "p-2"}`}
                         />
@@ -61,6 +61,7 @@ const Skills: FC = () => {
                     {icons.slice(7).map((item, i) => (
                         <SkillIcon
                             i={i}
+                            key={i}
                             item={item}
                             className={`${item.title === "Adobe Illustrator" && "p-3" || item.title === "Adobe XD" && "p-3" || "p-2"}`}
                         />
