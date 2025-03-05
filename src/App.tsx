@@ -12,7 +12,7 @@ const App: FC = () => {
     <div className='min-h-screen pb-20 bg-dark text-white'>
       <div className='w-full'>
         <Navbar />
-        <main className='wrapper min-h-svh mb-44'>
+        <main className='wrapper min-h-svh mb-20 md:mb-44'>
           <Hero />
           <About />
           <Experience />
