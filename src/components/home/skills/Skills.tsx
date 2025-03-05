@@ -33,14 +33,14 @@ const Skills: FC = () => {
     ];
 
     return (
-        <section className="min-h-screen relative flex flex-col items-center pt-10 mb-20">
-            <div className="text-center font-preahvihear">
+        <section className="min-h-screen relative flex flex-col items-center pt-10">
+            <div className="text-center space-y-2 font-preahvihear">
                 <h3 className="text-xl">
                     I'm currently looking to join a{" "}
                     <span className="text-[#A362FF]">cross-functional</span>{" "}
                     team
                 </h3>
-                <h4>that values improving people's lives through accessible design.</h4>
+                <h5 className="text-sm">that values improving people's lives through accessible design.</h5>
             </div>
 
             <div className="flex flex-col items-center mt-10 gap-4">

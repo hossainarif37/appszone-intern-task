@@ -20,7 +20,7 @@ const Projects: FC = () => {
     ];
     return (
         <section className='min-h-screen'>
-            <div className='flex flex-col space-y-40'>
+            <div className='flex flex-col space-y-20 md:space-y-36'>
                 {
                     projects.map((project, i) => (
                         <ProjectCard
