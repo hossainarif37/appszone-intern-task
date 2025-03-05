@@ -11,7 +11,7 @@ interface ProjectCardProps {
 
 const ProjectCard: FC<ProjectCardProps> = ({ title, description, projectImg, isOdd }) => {
     return (
-        <div className={`relative flex  gap-5 p-5 rounded-2xl`}>
+        <div className={`relative flex gap-5 p-5 rounded-2xl`}>
             <div className='hidden md:block'>
                 <GlowEffectBg className={`opacity-70 ${isOdd ? "w-[600px] h-[550px] -translate-x-[670px]" : "w-[700px] h-[660px] -translate-x-36"} transform`} />
             </div>
@@ -28,7 +28,7 @@ const ProjectCard: FC<ProjectCardProps> = ({ title, description, projectImg, isO
                             {description}
                         </div>
 
-                        <div className={`flex ${isOdd ? "justify-end" : "justify-start"} gap-3 pt-5`}>
+                        <div className={`flex ${isOdd ? "justify-end" : "justify-end md:justify-start"} gap-3 pt-5`}>
                             <img src={loadingIcon} width={28} alt="" />
                             <img src={loadingIcon} width={28} alt="" />
                         </div>

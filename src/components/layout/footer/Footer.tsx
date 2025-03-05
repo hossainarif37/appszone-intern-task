@@ -6,13 +6,13 @@ import google from "../../../assets/icons/google.png"
 
 const Footer: FC = () => {
     return (
-        <footer className='wrapper'>
+        <footer className='wrapper font-preahvihear px-5 md:px-0'>
             <h2 className='text-2xl'>Contact</h2>
-            <p className='pt-16 py-6'>
+            <p className='pt-10 md:pt-16 py-6 font-light text-sm leading-7'>
                 I'm currently looking to join a cross-functional team that values improving people's lives <br /> through accessible design. or have a project in mind? Let's connect.
             </p>
 
-            <p className='pb-7'>ibrhaimmemon930@gmail.com</p>
+            <p className='pb-7 text-sm'>ibrhaimmemon930@gmail.com</p>
 
             <div className='flex gap-5'>
                 <img width={16} height={16} src={instagram} alt="" />

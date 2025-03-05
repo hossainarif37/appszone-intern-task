@@ -119,7 +119,6 @@ const Skills: FC = () => {
             </>
 
             <div className="flex justify-center items-center">
-
                 <div className="relative z-20 bg-gradient-to-b from-[#280E62] to-[#65339A] size-[180px] flex justify-center items-center rounded-full">
                     <img src={light} alt="" />
 

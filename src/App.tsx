@@ -19,7 +19,7 @@ const App: FC = () => {
           <Skills />
           <Projects />
         </main>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </div>
   );
