@@ -34,10 +34,10 @@ const Skills: FC = () => {
 
     return (
         <section className="min-h-screen relative flex flex-col items-center pt-10 mb-20">
-            <div className="text-center">
+            <div className="text-center font-preahvihear">
                 <h3 className="text-xl">
                     I'm currently looking to join a{" "}
-                    <span className="text-[#A362FF] font-semibold">cross-functional</span>{" "}
+                    <span className="text-[#A362FF]">cross-functional</span>{" "}
                     team
                 </h3>
                 <h4>that values improving people's lives through accessible design.</h4>
@@ -48,6 +48,7 @@ const Skills: FC = () => {
                 <div className="flex gap-2">
                     {icons.slice(0, 7).map((item, i) => (
                         <SkillIcon
+                            key={i}
                             i={i}
                             item={item}
                             className={`${item.title === "Figma" && "p-4" || item.title === "Redux" && "p-3" || item.title === "JavaScript" && "p-3" || "p-2"}`}
@@ -68,7 +69,7 @@ const Skills: FC = () => {
             </div>
 
             <>
-                <svg className="absolute top-[344px] left-1/2 transform -translate-x-[48px] -translate-y-1/2" width="100" height="200">
+                <svg className="absolute top-[396px] md:top-[344px] left-1/2 transform -translate-x-[48px] -translate-y-1/2" width="100" height="200">
                     <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
                         <stop offset="0%" style={{ stopColor: "rgba(163, 98, 255, 0.5)", stopOpacity: 1 }} />
                         <stop offset="100%" style={{ stopColor: "rgba(163, 98, 255, 0)", stopOpacity: 0 }} />
@@ -76,7 +77,7 @@ const Skills: FC = () => {
                     <path d="M19,0 Q34,67 51,268" stroke="url(#grad1)" strokeWidth="0.5" fill="transparent"></path>
                 </svg>
 
-                <svg className="absolute top-[344px] left-1/2 transform -translate-x-[40px] -translate-y-1/2" width="100" height="200">
+                <svg className="absolute top-[396px] md:top-[344px] left-1/2 transform -translate-x-[40px] -translate-y-1/2" width="100" height="200">
                     <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
                         <stop offset="0%" style={{ stopColor: "rgba(163, 98, 255, 0.5)", stopOpacity: 1 }} />
                         <stop offset="100%" style={{ stopColor: "rgba(163, 98, 255, 0)", stopOpacity: 0 }} />
@@ -92,7 +93,7 @@ const Skills: FC = () => {
                     <path d="M0.499756 1C44.1664 48.5 124.2 164.5 140 301.5" stroke="url(#grad3)"></path>
                 </svg>
 
-                <svg className="absolute top-[344px] left-1/2 transform -translate-x-[82px] -translate-y-1/2" width="100" height="200">
+                <svg className="absolute top-[396px] md:top-[344px] left-1/2 transform -translate-x-[82px] -translate-y-1/2" width="100" height="200">
                     <linearGradient id="grad4" x1="0%" y1="0%" x2="0%" y2="100%">
                         <stop offset="0%" style={{ stopColor: "rgba(163, 98, 255, 0.5)", stopOpacity: 1 }} />
                         <stop offset="100%" style={{ stopColor: "rgba(163, 98, 255, 0)", stopOpacity: 0 }} />
@@ -100,7 +101,7 @@ const Skills: FC = () => {
                     <path d="M0,0 Q62,91 88,268" stroke="url(#grad4)" strokeWidth="0.5" fill="transparent"></path>
                 </svg>
 
-                <svg className="absolute top-[344px] left-1/2 transform -translate-x-[19px] -translate-y-1/2" width="100" height="200">
+                <svg className="absolute top-[396px] md:top-[344px] left-1/2 transform -translate-x-[19px] -translate-y-1/2" width="100" height="200">
                     <linearGradient id="grad5" x1="0%" y1="0%" x2="0%" y2="100%">
                         <stop offset="0%" style={{ stopColor: "rgba(163, 98, 255, 0.5)", stopOpacity: 1 }} />
                         <stop offset="100%" style={{ stopColor: "rgba(163, 98, 255, 0)", stopOpacity: 0 }} />
@@ -108,7 +109,7 @@ const Skills: FC = () => {
                     <path d="M100,0 Q37,63 17,223" stroke="url(#grad5)" strokeWidth="0.5" fill="transparent"></path>
                 </svg>
 
-                <svg className="absolute top-[344px] left-1/2 transform translate-x-[35px] -translate-y-1/2" width="100" height="200">
+                <svg className="absolute top-[396px] md:top-[344px] left-1/2 transform translate-x-[35px] -translate-y-1/2" width="100" height="200">
                     <linearGradient id="grad6" x1="0%" y1="0%" x2="0%" y2="100%">
                         <stop offset="0%" style={{ stopColor: "rgba(163, 98, 255, 0.4)", stopOpacity: 1 }} />
                         <stop offset="100%" style={{ stopColor: "rgba(163, 98, 255, 0)", stopOpacity: 0 }} />
@@ -123,15 +124,15 @@ const Skills: FC = () => {
                     <img src={light} alt="" />
 
                     <div
-                        className="w-[295px] h-[164px] absolute top-8 bg-transparent border-b border-[#65339A] rounded-[50%]"
+                        className="w-[236px] md:w-[295px] h-[164px] absolute top-8 bg-transparent border-b border-[#65339A] rounded-[50%]"
                     />
                     <div
-                        className="w-[265px] h-[185px] absolute top-8 bg-transparent border-b border-[#65339A] rounded-[70%]"
+                        className="w-[220px] md:w-[265px] h-[185px] absolute top-8 bg-transparent border-b border-[#65339A] rounded-[70%]"
                     />
                 </div>
 
                 <div
-                    className=" w-[881px] h-[269px] absolute bottom-36 bg-transparent"
+                    className="max-w-[881px] w-full aspect-[881/269] absolute bottom-48 md:bottom-36 bg-transparent inset-x-0 mx-auto px-5 md:px-0"
                     style={{
                         borderRadius: "50%",
                         border: "2px solid transparent",
@@ -139,10 +140,8 @@ const Skills: FC = () => {
                             "linear-gradient(#11071F, #11071F) padding-box, linear-gradient(to bottom, rgba(118, 60, 172, 0) 0%, #763CAC 99.9%) border-box",
                     }}
                 >
-
-
                     <div
-                        className="w-[764px] h-[269px] mx-auto bg-transparent"
+                        className="max-w-[764px] px-5 md:px-0 w-full aspect-[764/269] mx-auto bg-transparent"
                         style={{
                             borderRadius: "50%",
                             border: "2px solid transparent",
@@ -151,7 +150,7 @@ const Skills: FC = () => {
                         }}
                     >
                         <div
-                            className="w-[695px] h-[269px] mx-auto bg-transparent"
+                            className="max-w-[695px] w-full aspect-[695/269] mx-auto bg-transparent"
                             style={{
                                 borderRadius: "50%",
                                 border: "2px solid transparent",
@@ -161,15 +160,16 @@ const Skills: FC = () => {
                         />
 
                         <div
-                            className="mx-auto absolute top-10 left-[243px] w-[400px] h-[193px] rounded-[50%]"
+                            className="absolute top-10 inset-x-0 mx-auto max-w-[400px] w-[50%] aspect-[400/193] rounded-[50%]"
                             style={{
-                                background: 'linear-gradient(360deg, #572A8A -27%, rgba(50, 15, 133, 0) 159%)',
-                                transformOrigin: 'center',
-                                filter: 'blur(45px)'
+                                background: "linear-gradient(360deg, #572A8A -27%, rgba(50, 15, 133, 0) 159%)",
+                                transformOrigin: "center",
+                                filter: "blur(45px)",
                             }}
                         />
                     </div>
                 </div>
+
             </div>
         </section>
     );

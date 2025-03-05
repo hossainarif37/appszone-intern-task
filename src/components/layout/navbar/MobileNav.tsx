@@ -19,7 +19,7 @@ const MobileNav: FC = () => {
                 }
             </button>
 
-            <ul className={`z-50 bg-[#1A0B2E]/90 backdrop-blur-2xl absolute origin-top duration-200 ${isOpen ? "scale-y-100" : "scale-y-0"} top-14 right-0 w-48 p-5 flex flex-col gap-5 font-semibold text-primary`}>
+            <ul className={`z-50 bg-[#1A0B2E]/90 backdrop-blur-2xl absolute origin-top duration-200 ${isOpen ? "scale-y-100" : "scale-y-0"} top-14 right-0 w-48 p-5 flex flex-col gap-5 text-white`}>
                 {navLinks.map((link, index) => (
                     <li key={index}>
                         <a href={link.href}>{link.title}</a>

@@ -17,9 +17,9 @@ const App: FC = () => {
           <About />
           <Experience />
           <Skills />
-          <Projects />
+          {/* <Projects /> */}
         </main>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ import MobileNav from './MobileNav';
 
 const Navbar: FC = () => {
     return (
-        <nav className='bg-[#1A0B2E] text-white'>
+        <nav className='bg-[#1A0B2E] text-white px-5 md:px-0'>
             <div className='wrapper flex justify-between items-center py-6'>
                 {/* Logo */}
                 <div>

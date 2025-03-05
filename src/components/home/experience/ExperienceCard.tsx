@@ -15,8 +15,8 @@ const ExperienceCard: FC<ExperienceCardProps> = ({ experienceImg, title, descrip
                 <img src={experienceImg} alt="Experience" className="w-full" />
             </div>
 
-            <div className='flex flex-col gap-1 pt-3'>
-                <h1 className='text-2xl font-bold'>{title}</h1>
+            <div className='flex flex-col gap-1.5 pt-3'>
+                <h1 className='text-2xl leading-5'>{title}</h1>
                 <p className='text-[8px] w-[230px]'>{description}</p>
                 <a className='bg-[#2C1250] uppercase text-[8px] w-28 flex justify-center items-center border border-[#693B93] rounded-lg py-2' href={buttonContent.link}>
                     {buttonContent.title}

@@ -4,15 +4,15 @@ import bottomArrow from "../../../assets/hero/bottom_arrow.png";
 
 const Hero: FC = () => {
     return (
-        <section className="relative flex text-white bg-[#10051e] ">
+        <section className="relative flex flex-col md:flex-row items-center md:items-start text-white bg-[#10051e] font-preahvihear px-5 md:px-0">
             {/* Left Section - Image & Effects */}
             {/* Glow Effect */}
             <div
-                className="flex justify-center items-center w-[380px] h-[380px] rounded-full bg-[radial-gradient(circle,rgba(66,30,113,1)_26%,rgba(40,16,76,0)_65%)] transform -ml-24 mt-24 z-0"
+                className="flex justify-center items-center size-[380px] rounded-full bg-[radial-gradient(circle,rgba(66,30,113,1)_26%,rgba(40,16,76,0)_65%)] transform md:-ml-24 md:mt-24 z-0"
             >
 
                 <div
-                    className="flex justify-center items-center w-[250px] h-[250px] rounded-full 
+                    className=" flex justify-center items-center size-[200px] md:size-[250px] rounded-full 
                        bg-[radial-gradient(circle,rgba(181,170,193,1)_10%,rgba(40,17,77,0)_65%)] z-0"
                 >
                     <img
@@ -28,20 +28,24 @@ const Hero: FC = () => {
             <img
                 src={bottomArrow}
                 alt="Hero"
-                className="absolute top-[88px] left-28"
+                className="absolute top-[88px] left-28 hidden md:block"
             />
 
             {/* Right Section - Content */}
-            <div className="mt-[105px] -ml-14">
-                <h3 className="text-xl -ml-3">
-                    Hello! I am <span className="text-[#7127BA] font-semibold">Ariful Islam</span>
+            <div className="md:mt-[105px] md:-ml-14">
+                <h3 className="md:-ml-3">
+                    Hello! I am <span className="text-primary">Ariful Islam</span>
                 </h3>
 
-                <div className="mt-[68px]">
-                    <h3 className="text-xl">A Designer who</h3>
+                <div className="mt-5 md:mt-[68px]">
+                    <h5>A Designer who</h5>
                     <div>
-                        <h1 className="text-5xl mt-2 relative">
-                            Judges a book <br /> by its <div className="absolute top-[50px] right-[42px] w-[148px] h-[50px] rounded-[50%] border border-white transform -rotate-6" /> <span className="text-[#7127BA] mr-0.5">cover</span><span>...</span>
+                        <h1 className="text-5xl mt-2 leading-16 relative">
+                            <span>Judges a book <br /> by its</span>
+                            <div
+                                className="absolute top-[68px] right-[72px] md:right-[87px] w-[172px] h-[50px] rounded-[50%] border border-white transform -rotate-5"
+                            />
+                            <span className="text-primary mr-0.5"> cover</span><span>...</span>
 
                         </h1>
                         <p className="text-xs text-gray-300 mt-3">
