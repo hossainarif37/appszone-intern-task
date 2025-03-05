@@ -6,7 +6,8 @@
   --font-preahvihear: "Preahvihear", sans-serif;
   --font-poppins: "Poppins", sans-serif;
   --color-primary: #7127BA;
-  --color-white: #F3F3F3
+  --color-white: #F3F3F3;
+  --color-dark: #11071F;
 }
 
 @layer utilities {

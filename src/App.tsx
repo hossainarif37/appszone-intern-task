@@ -9,7 +9,7 @@ import Skills from './components/home/skills/Skills';
 
 const App: FC = () => {
   return (
-    <div className='min-h-screen pb-20 bg-[#11071F] text-white'>
+    <div className='min-h-screen pb-20 bg-dark text-white'>
       <div className='w-full'>
         <Navbar />
         <main className='wrapper min-h-svh mb-44'>
